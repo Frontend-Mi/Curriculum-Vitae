@@ -8,7 +8,7 @@
 }
 
 body {
-    background: lightblue;
+    background: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +24,12 @@ body {
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
 }
 
 .container .left_Side {
     position: relative;
-    background: #25316D;
+    background: #222831;
     padding: 30px;
 }
 
@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid #393E46;
 }
 
 .profileText .imgBx {
@@ -57,6 +57,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 5px solid #fff;
+    border-radius: 50%;
 }
 
 .profileText h2 {
@@ -84,6 +86,8 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    border-left: 4px solid #00ADB5;
+    padding-left: 10px;
 }
 
 .contactInfo ul {
@@ -101,7 +105,7 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #97D2EC;
+    color: #00ADB5;
 }
 
 .contactInfo ul li span {
@@ -114,7 +118,7 @@ body {
 }
 
 .contactInfo.education h5 {
-    color: #97D2EC;
+    color: #00ADB5;
     font-weight: 500;
 }
 
@@ -126,6 +130,23 @@ body {
 .contactInfo.education h4 {
     color: #fff;
     font-weight: 300;
+}
+
+.contactInfo.skills .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.skills .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #00ADB5;
 }
 
 .contactInfo.language .percent {
@@ -142,7 +163,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #97D2EC;
+    background: #00ADB5;
 }
 
 .container .right_Side {
@@ -160,7 +181,7 @@ body {
 }
 
 .title2 {
-    color: #25316D;
+    color: #393E46;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -183,44 +204,25 @@ p {
 
 .about .box .year_company h5 {
     text-transform: uppercase;
-    color: #5F6F94;
+    color: #393E46;
     font-weight: 600;
+}
+
+.about .box .text {
+    margin-left: 10px;
 }
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color: #25316D;
-    font-size: 16px;
+    color: #393E46;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
-}
-
-.skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
-}
-
-.skills .box .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #97D2EC;
+.about .box .text span {
+    text-transform: capitalize;
+    color: #00ADB5;
+    font-size: 18px;
 }
 
 .interest ul {
@@ -236,13 +238,13 @@ p {
 }
 
 .interest ul li ion-icon {
-    color: #03a9f4;
+    color: #00ADB5;
     font-size: 18px;
     width: 20px;
 }
 
 .container .right_Side h2 {
-    border-left: 4px solid #97D2EC;
+    border-left: 4px solid #00ADB5;
     padding-left: 10px;
 }
 

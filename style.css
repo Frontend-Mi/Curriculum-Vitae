@@ -24,7 +24,7 @@ body {
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
 }
 
 .container .left_Side {
@@ -227,7 +227,7 @@ p {
 
 .interest ul {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .interest ul li {
@@ -251,11 +251,11 @@ p {
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .interest ul {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -269,7 +269,7 @@ p {
     }
 
     .interest ul {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .interest ul li ion-icon {
@@ -277,6 +277,6 @@ p {
     }
 
     .skills .box {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
